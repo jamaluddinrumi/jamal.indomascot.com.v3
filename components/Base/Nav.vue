@@ -1,21 +1,13 @@
 <template>
-    <i-navbar v-model="open">
+    <i-navbar>
         <i-navbar-brand to="/">
             <nuxt-icon class="opacity-80 align-text-bottom" name="Logo"></nuxt-icon>
             <div class="text-center text-2xl"><span class="font-extrabold">Jamal</span><span
                     class=" opacity-75 text-sm align-text-top">Blog</span>
             </div>
         </i-navbar-brand>
-        <i-navbar-collapsible>
-            <i-nav class="fa-ul mb-4 md:mb-0 md:mx-auto">
-                <!-- <i-nav-item class="pl-0 mr-8" to="/">
-                    <span class="fa-li">
-                        <IconHome class="align-text-bottom inline-block opacity-75"></IconHome>
-                    </span>
-                    <span class="font-medium">
-                        Halaman Depan
-                    </span>
-                </i-nav-item> -->
+        <i-navbar-collapsible class="_justify-content:center">
+            <i-nav class="fa-ul mb-4 md:mb-0">
                 <i-nav-item class="pl-0 mr-8" to="/">
                     <span class="fa-li">
                         <IconNuxt class="align-text-bottom inline-block opacity-75"></IconNuxt>
