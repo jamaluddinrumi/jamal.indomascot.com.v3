@@ -1,48 +1,66 @@
 <template>
     <i-navbar>
         <i-navbar-brand to="/">
-            <div class="text-center text-2xl"><span class="font-bold">Jamal</span><span
+            <nuxt-icon class="opacity-80 align-text-bottom" name="Logo"></nuxt-icon>
+            <div class="text-center text-2xl"><span class="font-extrabold">Jamal</span><span
                     class=" opacity-75 text-sm align-text-top">Blog</span>
             </div>
         </i-navbar-brand>
         <i-navbar-collapsible>
-            <i-nav class="fa-ul mb-4">
-                <i-nav-item class="pl-0" to="/">
+            <i-nav class="fa-ul mb-4 md:mb-0">
+                <!-- <i-nav-item class="pl-0 mr-8" to="/">
                     <span class="fa-li">
                         <IconHome class="align-text-bottom inline-block opacity-75"></IconHome>
                     </span>
-                    Halaman Depan
-                </i-nav-item>
-                <i-nav-item class="pl-0" to="/">
+                    <span class="font-medium">
+                        Halaman Depan
+                    </span>
+                </i-nav-item> -->
+                <i-nav-item class="pl-0 mr-8" to="/">
                     <span class="fa-li">
                         <IconNuxt class="align-text-bottom inline-block opacity-75"></IconNuxt>
-                    </span> NuxtJS
+                    </span>
+                    <span class="font-medium">
+                        NuxtJS
+                    </span>
                 </i-nav-item>
-                <i-nav-item class="pl-0" to="/">
+                <i-nav-item class="pl-0 mr-8" to="/">
                     <span class="fa-li">
                         <IconGoogleMarketingPlatform class="align-text-bottom inline-block opacity-75">
                         </IconGoogleMarketingPlatform>
                     </span>
-                    Marketing
+
+                    <span class="font-medium">
+                        Marketing
+                    </span>
                 </i-nav-item>
-                <i-nav-item class="pl-0" to="/">
+                <i-nav-item class="pl-0 mr-8" to="/">
                     <span class="fa-li">
                         <IconStyled class="align-text-bottom inline-block opacity-75"></IconStyled>
-                    </span> UI/UX
+                    </span>
+                    <span class="font-medium">
+                        UI/UX
+                    </span>
                 </i-nav-item>
-                <i-nav-item class="pl-0" to="/">
+                <i-nav-item class="pl-0 mr-8" to="/">
                     <span class="fa-li">
                         <IconFitness class="align-text-bottom inline-block opacity-75"></IconFitness>
-                    </span> Fitness
+                    </span>
+                    <span class="font-medium">
+                        Fitness
+                    </span>
                 </i-nav-item>
-                <i-nav-item class="pl-0" to="/lab">
+                <i-nav-item class="pl-0 mr-8" to="/lab">
                     <span class="fa-li">
                         <IconTube class="align-text-bottom inline-block opacity-75"></IconTube>
                     </span>
-                    Lab
+
+                    <span class="font-medium">
+                        Lab
+                    </span>
                 </i-nav-item>
             </i-nav>
-            <i-input placeholder="ketik di sini untuk mencari..">
+            <i-input placeholder="cari..">
                 <template #append>
                     <i-button color="primary">
                         <IconSearch></IconSearch>
@@ -81,5 +99,12 @@ import IconTube from "~icons/noto/test-tube"
     text-align: center;
     width: 1.85em;
     line-height: inherit;
+}
+
+.navbar .navbar-collapsible .nav-item.-focused,
+.navbar .navbar-collapsible .nav-item.-hovered,
+.navbar .navbar-collapsible .nav-item:focus,
+.navbar .navbar-collapsible .nav-item:hover {
+    background: none
 }
 </style>
