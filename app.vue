@@ -10,11 +10,10 @@
 </template>
 
 <style lang="scss">
-@import "@inkline/inkline/css/variables";
-@import "@inkline/inkline/css/mixins";
 @import "@/assets/css/app.css";
 @import "@/assets/css/inter.css";
-@import "@/assets/css/tailwind.css";
+@import "@inkline/inkline/css/variables";
+@import "@inkline/inkline/css/mixins";
 
 :root {
   --color--primary--h: 202deg;
@@ -28,8 +27,8 @@
   padding-left: 0;
 }
 
-.fa-ul>li, .fa-ul>a {
-    position: relative;
+.fa-ul>li {
+  position: relative;
 }
 
 .fa-li {
