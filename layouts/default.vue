@@ -1,5 +1,5 @@
 <template>
-    <i-layout>
+    <i-layout class="min-h-screen">
         <BaseHeader></BaseHeader>
         <i-layout-content>
             <slot></slot>
@@ -7,3 +7,4 @@
         <BaseFooter></BaseFooter>
     </i-layout>
 </template>
+
