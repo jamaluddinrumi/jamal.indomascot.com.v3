@@ -8,6 +8,8 @@ export default defineNuxtConfig({
 
   modules: ["@nuxtjs/tailwindcss"],
 
+  buildModules: [["unplugin-icons/nuxt", {}]],
+
   tailwindcss: {
     viewer: false,
   },
