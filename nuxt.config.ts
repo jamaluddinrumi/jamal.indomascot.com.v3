@@ -6,7 +6,9 @@ export default defineNuxtConfig({
     shim: false,
   },
 
-  modules: ["@nuxtjs/tailwindcss", "nuxt-icons", "@inkline/nuxt"],
+  modules: ["@inkline/nuxt", "@nuxtjs/tailwindcss", "nuxt-icons"],
+
+  inkline: { css: true },
 
   buildModules: [["unplugin-icons/nuxt"]],
 
