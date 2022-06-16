@@ -1,7 +1,8 @@
 <template>
   <div class="">
     <div class="min-h-screen grid place-content-center">
-      <h1><span>GitHub</span> <span class="font-bold">Blog</span></h1>
+      <h1 class="text-center text-2xl"><span>GitHub</span> <span class="font-bold">Blog</span></h1>
+      <h2 class="text-center">about NuxtJS, Marketing, UI/UX</h2>
     </div>
   </div>
 </template>
