@@ -1,7 +1,7 @@
 <template>
     <header></header>
     <main>
-        <slot />
+        <slot></slot>
     </main>
     <footer></footer>
 </template>
