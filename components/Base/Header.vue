@@ -1,5 +1,5 @@
 <template>
     <i-layout-header>
-        Header
+        <BaseNav></BaseNav>
     </i-layout-header>
 </template>
