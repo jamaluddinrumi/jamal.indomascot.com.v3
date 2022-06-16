@@ -50,6 +50,15 @@
                         Fitness
                     </span>
                 </i-nav-item>
+                <i-nav-item class="pl-0 mr-8" to="/">
+                    <span class="fa-li">
+                        <IconHouse class="align-text-bottom inline-block opacity-75"></IconHouse>
+                    </span>
+
+                    <span class="font-medium">
+                        Properti
+                    </span>
+                </i-nav-item>
                 <i-nav-item class="pl-0 mr-8" to="/lab">
                     <span class="fa-li">
                         <IconTube class="align-text-bottom inline-block opacity-75"></IconTube>
@@ -79,6 +88,7 @@ import IconGoogleMarketingPlatform from "~icons/logos/google-marketing-platform"
 import IconStyled from "~icons/vscode-icons/file-type-styled"
 import IconFitness from "~icons/logos/google-fit"
 import IconTube from "~icons/noto/test-tube"
+import IconHouse from "~icons/noto-v1/house"
 
 const open = ref(true)
 
