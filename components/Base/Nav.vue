@@ -16,6 +16,9 @@
                 <i-nav-item to="/">
                     Contact
                 </i-nav-item>
+                <i-nav-item to="/test">
+                    Test
+                </i-nav-item>
             </i-nav>
             <i-input placeholder="Type something..">
                 <template #append>
