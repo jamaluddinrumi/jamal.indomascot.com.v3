@@ -4,8 +4,7 @@
         <Head>
             <Title>Marketing Practitioner - Jamaluddin Rumi</Title>
         </Head>
-
-        Halaman Depan
+        <h1>Halaman Depan</h1>
     </div>
 </template>
 

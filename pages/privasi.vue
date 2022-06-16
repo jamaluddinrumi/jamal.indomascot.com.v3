@@ -2,8 +2,8 @@
     <div class="mt-4">
 
         <Head>
-            <Title>Lab - Jamaluddin Rumi</Title>
+            <Title>Privasi - Jamaluddin Rumi</Title>
         </Head>
-        <h1>Lab</h1>
+        <h1>Privasi</h1>
     </div>
 </template>
