@@ -6,7 +6,7 @@ export default defineNuxtConfig({
     shim: false,
   },
 
-  modules: ["@nuxtjs/tailwindcss"],
+  modules: ["@nuxtjs/tailwindcss", "nuxt-icons"],
 
   buildModules: [["unplugin-icons/nuxt", {}]],
 
