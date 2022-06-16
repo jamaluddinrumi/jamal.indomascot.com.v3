@@ -11,7 +11,7 @@
                     <span class="fa-li">
                         <IconHome class="align-text-bottom inline-block opacity-75"></IconHome>
                     </span>
-                    Home
+                    Halaman Depan
                 </i-nav-item>
                 <i-nav-item class="pl-0" to="/">
                     <span class="fa-li">
@@ -42,7 +42,7 @@
                     Lab
                 </i-nav-item>
             </i-nav>
-            <i-input placeholder="Type something..">
+            <i-input placeholder="ketik di sini untuk mencari..">
                 <template #append>
                     <i-button color="primary">
                         <IconSearch></IconSearch>
