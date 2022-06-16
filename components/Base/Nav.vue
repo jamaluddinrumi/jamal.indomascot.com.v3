@@ -6,18 +6,40 @@
             </div>
         </i-navbar-brand>
         <i-navbar-collapsible>
-            <i-nav>
-                <i-nav-item to="/">
+            <i-nav class="fa-ul mb-4">
+                <i-nav-item class="pl-0" to="/">
+                    <span class="fa-li">
+                        <IconHome class="align-text-bottom inline-block opacity-75"></IconHome>
+                    </span>
                     Home
                 </i-nav-item>
-                <i-nav-item to="/">
-                    About
+                <i-nav-item class="pl-0" to="/">
+                    <span class="fa-li">
+                        <IconNuxt class="align-text-bottom inline-block opacity-75"></IconNuxt>
+                    </span> NuxtJS
                 </i-nav-item>
-                <i-nav-item to="/">
-                    Contact
+                <i-nav-item class="pl-0" to="/">
+                    <span class="fa-li">
+                        <IconGoogleMarketingPlatform class="align-text-bottom inline-block opacity-75">
+                        </IconGoogleMarketingPlatform>
+                    </span>
+                    Marketing
                 </i-nav-item>
-                <i-nav-item to="/test">
-                    Test
+                <i-nav-item class="pl-0" to="/">
+                    <span class="fa-li">
+                        <IconStyled class="align-text-bottom inline-block opacity-75"></IconStyled>
+                    </span> UI/UX
+                </i-nav-item>
+                <i-nav-item class="pl-0" to="/">
+                    <span class="fa-li">
+                        <IconFitness class="align-text-bottom inline-block opacity-75"></IconFitness>
+                    </span> Fitness
+                </i-nav-item>
+                <i-nav-item class="pl-0" to="/test">
+                    <span class="fa-li">
+                        <IconTube class="align-text-bottom inline-block opacity-75"></IconTube>
+                    </span>
+                    Lab
                 </i-nav-item>
             </i-nav>
             <i-input placeholder="Type something..">
@@ -33,5 +55,31 @@
 
 <script setup>
 import IconSearch from "~icons/carbon/search"
+import IconHome from "~icons/logos/google-home"
+import IconNuxt from "~icons/vscode-icons/file-type-nuxt"
+import IconGoogleMarketingPlatform from "~icons/logos/google-marketing-platform"
+import IconStyled from "~icons/vscode-icons/file-type-styled"
+import IconFitness from "~icons/logos/google-fit"
+import IconTube from "~icons/twemoji/test-tube"
 
 </script>
+
+<style scoped>
+.fa-ul {
+    list-style-type: none;
+    margin-left: 2.5em;
+    padding-left: 0;
+}
+
+.fa-ul>a {
+    position: relative;
+}
+
+.fa-li {
+    left: -1.85em;
+    position: absolute;
+    text-align: center;
+    width: 1.85em;
+    line-height: inherit;
+}
+</style>
