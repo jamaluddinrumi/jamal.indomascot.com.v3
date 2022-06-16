@@ -35,7 +35,7 @@
                         <IconFitness class="align-text-bottom inline-block opacity-75"></IconFitness>
                     </span> Fitness
                 </i-nav-item>
-                <i-nav-item class="pl-0" to="/test">
+                <i-nav-item class="pl-0" to="/lab">
                     <span class="fa-li">
                         <IconTube class="align-text-bottom inline-block opacity-75"></IconTube>
                     </span>
