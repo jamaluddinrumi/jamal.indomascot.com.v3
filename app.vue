@@ -19,8 +19,8 @@
 @import "@inkline/inkline/css/mixins";
 
 :root {
-    --color--primary--h: 195deg;
-    --color--primary--s: 77%;
-    --color--primary--l: 39%;
+    --color--primary--h: 202deg;
+    --color--primary--s: 89%;
+    --color--primary--l: 43%;
 }
 </style>
