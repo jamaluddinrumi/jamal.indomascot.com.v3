@@ -1,5 +1,5 @@
 <template>
-    <i-navbar>
+    <i-navbar v-model="open">
         <i-navbar-brand to="/">
             <nuxt-icon class="opacity-80 align-text-bottom" name="Logo"></nuxt-icon>
             <div class="text-center text-2xl"><span class="font-extrabold">Jamal</span><span
@@ -73,12 +73,14 @@
 
 <script setup>
 import IconSearch from "~icons/carbon/search"
-import IconHome from "~icons/logos/google-home"
+// import IconHome from "~icons/logos/google-home"
 import IconNuxt from "~icons/vscode-icons/file-type-nuxt"
 import IconGoogleMarketingPlatform from "~icons/logos/google-marketing-platform"
 import IconStyled from "~icons/vscode-icons/file-type-styled"
 import IconFitness from "~icons/logos/google-fit"
 import IconTube from "~icons/noto/test-tube"
+
+const open = ref(true)
 
 </script>
 
