@@ -75,7 +75,7 @@
 <script setup>
 import IconSearch from "~icons/carbon/search"
 // import IconHome from "~icons/logos/google-home"
-import IconNuxt from "~icons/vscode-icons/file-type-nuxt"
+import IconNuxt from "~icons/logos/nuxt-icon"
 import IconGoogleMarketingPlatform from "~icons/logos/google-marketing-platform"
 import IconStyled from "~icons/vscode-icons/file-type-styled"
 import IconFitness from "~icons/logos/google-fit"
