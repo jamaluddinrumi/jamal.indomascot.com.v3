@@ -7,7 +7,7 @@
             </div>
         </i-navbar-brand>
         <i-navbar-collapsible class="_justify-content:center">
-            <i-nav class="fa-ul mb-4 md:mb-0">
+            <i-nav class="fa-ul mb-4">
                 <i-nav-item class="pl-0 mr-8" to="/">
                     <span class="fa-li">
                         <IconNuxt class="align-text-bottom inline-block opacity-75"></IconNuxt>
