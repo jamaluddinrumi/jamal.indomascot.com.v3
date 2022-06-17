@@ -1,5 +1,5 @@
 <template>
-    <i-navbar>
+    <i-navbar :collapse="true">
         <i-navbar-brand to="/">
             <nuxt-icon class="opacity-80 align-text-bottom" name="Logo"></nuxt-icon>
             <div class="text-center text-2xl"><span class="font-extrabold">Jamal</span><span
