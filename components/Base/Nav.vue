@@ -1,7 +1,7 @@
 <template>
     <i-navbar :collapse="true">
         <i-navbar-brand to="/">
-            <nuxt-icon class="opacity-80 align-text-bottom" name="Logo"></nuxt-icon>
+            <nuxt-icon class="opacity-85 align-text-bottom" name="Logo"></nuxt-icon>
             <div class="text-center text-2xl"><span class="font-extrabold">Jamal</span><span
                     class=" opacity-75 text-sm align-text-top">Blog</span>
             </div>
