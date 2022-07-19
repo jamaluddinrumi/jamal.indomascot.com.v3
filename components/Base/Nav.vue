@@ -9,7 +9,7 @@
     </i-navbar-brand>
     <i-navbar-collapsible class="_justify-content:center">
       <i-nav class="fa-ul mb-4 md:mb-0">
-        <i-nav-item class="pl-0 mr-8" to="/">
+        <i-nav-item class="pl-0 mr-8" to="/kategori/nuxtjs">
           <span class="fa-li">
             <IconNuxt
               class="align-text-bottom inline-block opacity-75"
@@ -17,7 +17,7 @@
           </span>
           <span class="font-medium"> NuxtJS </span>
         </i-nav-item>
-        <i-nav-item class="pl-0 mr-8" to="/">
+        <i-nav-item class="pl-0 mr-8" to="/kategori/marketing">
           <span class="fa-li">
             <IconGoogleMarketingPlatform
               class="align-text-bottom inline-block opacity-75"
@@ -27,7 +27,7 @@
 
           <span class="font-medium"> Marketing </span>
         </i-nav-item>
-        <i-nav-item class="pl-0 mr-8" to="/">
+        <i-nav-item class="pl-0 mr-8" to="/kategori/ui-ux">
           <span class="fa-li">
             <IconStyled
               class="align-text-bottom inline-block opacity-75"
@@ -35,7 +35,7 @@
           </span>
           <span class="font-medium"> UI/UX </span>
         </i-nav-item>
-        <i-nav-item class="pl-0 mr-8" to="/">
+        <i-nav-item class="pl-0 mr-8" to="/kategori/fitness">
           <span class="fa-li">
             <IconFitness
               class="align-text-bottom inline-block opacity-75"
@@ -43,7 +43,7 @@
           </span>
           <span class="font-medium"> Fitness </span>
         </i-nav-item>
-        <i-nav-item class="pl-0 mr-8" to="/">
+        <i-nav-item class="pl-0 mr-8" to="/kategori/properti">
           <span class="fa-li">
             <IconHouse
               class="align-text-bottom inline-block opacity-75"
@@ -52,7 +52,7 @@
 
           <span class="font-medium"> Properti </span>
         </i-nav-item>
-        <i-nav-item class="pl-0 mr-8" to="/lab">
+        <i-nav-item class="pl-0 mr-8" to="/kategori/lab">
           <span class="fa-li">
             <IconTube
               class="align-text-bottom inline-block opacity-75"

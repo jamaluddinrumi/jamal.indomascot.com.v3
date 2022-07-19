@@ -1,9 +1,0 @@
-<template>
-    <div class="mt-4">
-
-        <Head>
-            <Title>Lab - Jamaluddin Rumi</Title>
-        </Head>
-        <h1>Lab</h1>
-    </div>
-</template>
