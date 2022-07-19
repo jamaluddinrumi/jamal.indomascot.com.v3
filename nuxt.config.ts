@@ -8,7 +8,13 @@ export default defineNuxtConfig({
 
   modules: ["@inkline/nuxt", "@nuxtjs/tailwindcss", "nuxt-icons"],
 
-  inkline: { css: true, sassVariables: [] },
+  inkline: {
+    css: true,
+    sassVariables: [],
+    locale: "id",
+    colorMode: "dark",
+    color: "",
+  },
 
   buildModules: [["unplugin-icons/nuxt"]],
 
