@@ -9,6 +9,5 @@
 </template>
 
 <script setup>
-
 const toggled = ref(false);
 </script>
