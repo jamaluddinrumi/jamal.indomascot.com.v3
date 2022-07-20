@@ -5,7 +5,7 @@
     </Head>
     <h1 class="text-center">Halaman Depan</h1>
     <h2 class="text-center text-sm">
-      Duis mollis, est non commodo luctus.
+      {{ $t("title") }}
     </h2>
   </div>
 </template>
