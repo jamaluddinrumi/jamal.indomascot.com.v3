@@ -1,6 +1,6 @@
 export default {
   company: "INDOMASCOT",
-  title: "Marketing & Branding is Fun!",
+  title: "Just Another Allah's Servant",
   home: "Home",
   search: "Search",
   welcome: "Welcome",
@@ -176,11 +176,32 @@ export default {
   },
   allArticles: "All Articles",
   kategori: {
-    nuxtjs: "NuxtJS",
-    marketing: "Marketing",
-    uiUx: "UI/UX",
-    fitness: "Fitness",
-    properti: "Property",
-    lab: "Lab",
+    nuxtjs: {
+      title: "NuxtJS",
+      subTitle: "NuxtJS adalah framework untuk membuat web.",
+    },
+    marketing: {
+      title: "Marketing",
+      subTitle:
+        "Marketing berbeda dengan selling. Marketing adalah usaha untuk memasarkan (bukan menjual) barang/jasa.",
+    },
+    uiUx: {
+      title: "UI/UX",
+      subTitle:
+        "UI/UX adalah disiplin ilmu yang membahas cara agar sesuatu dapat dimanfaatkan dengan mudah.",
+    },
+    fitness: {
+      title: "Fitness",
+      subTitle: "Etiam porta sem malesuada magna mollis euismod.",
+    },
+    properti: {
+      title: "Properti",
+      subTitle: "Nullam quis risus eget urna mollis ornare vel eu leo.",
+    },
+    lab: {
+      title: "Lab",
+      subTitle:
+        "Semua percobaan terutama terkait digital marketing yang saya lakukan ada di sini.",
+    },
   },
 };
