@@ -20,7 +20,7 @@
         <i-nav-item class="pl-0 mr-8" to="/kategori/marketing">
           <span class="fa-li">
             <IconGoogleMarketingPlatform
-              class="align-text-bottom inline-block opacity-75"
+              class="align-text-bottom inline-block opacity-75 h-4 w-4 mb-[2px]"
             >
             </IconGoogleMarketingPlatform>
           </span>
@@ -30,7 +30,7 @@
         <i-nav-item class="pl-0 mr-8" to="/kategori/ui-ux">
           <span class="fa-li">
             <IconStyled
-              class="align-text-bottom inline-block opacity-75"
+              class="align-text-bottom inline-block opacity-75 mb-[1px]"
             ></IconStyled>
           </span>
           <span class="font-medium"> UI/UX </span>
@@ -38,7 +38,7 @@
         <i-nav-item class="pl-0 mr-8" to="/kategori/fitness">
           <span class="fa-li">
             <IconFitness
-              class="align-text-bottom inline-block opacity-75"
+              class="align-text-bottom inline-block opacity-75 h-4 w-4 mb-[2px]"
             ></IconFitness>
           </span>
           <span class="font-medium"> Fitness </span>
@@ -46,7 +46,7 @@
         <i-nav-item class="pl-0 mr-8" to="/kategori/properti">
           <span class="fa-li">
             <IconHouse
-              class="align-text-bottom inline-block opacity-75"
+              class="align-text-bottom inline-block opacity-75 h-4 w-4 mb-[3px]"
             ></IconHouse>
           </span>
 
@@ -55,7 +55,7 @@
         <i-nav-item class="pl-0 mr-8" to="/kategori/lab">
           <span class="fa-li">
             <IconTube
-              class="align-text-bottom inline-block opacity-75"
+              class="align-text-bottom inline-block opacity-75 h-4 w-4 mb-[1px]"
             ></IconTube>
           </span>
 

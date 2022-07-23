@@ -18,7 +18,7 @@
       ></IconStyled>
       <IconFitness
         v-if="slug === 'fitness'"
-        class="icon align-text-bottom inline-flex opacity-75 w-9 h-9 mt-[calc(1rem_*_2.7)]"
+        class="icon align-text-bottom inline-flex opacity-75 w-9 h-9 mt-[calc(1rem_*_2.8)]"
       ></IconFitness>
       <IconHouse
         v-if="slug === 'properti'"
@@ -28,7 +28,7 @@
         v-if="slug === 'lab'"
         class="icon align-text-bottom inline-flex opacity-75 w-8 h-8 mt-[calc(1rem_*_2.9)]"
       ></IconTube>
-      <h1 class="ml-1 text-center inline-flex">{{ $t(slugTitle) }}</h1>
+      <h1 class="ml-2 text-center inline-flex">{{ $t(slugTitle) }}</h1>
     </div>
     <h2 class="text-center text-sm">
       {{ $t(slugSubtitle) }}
