@@ -193,7 +193,7 @@ export default {
       subTitle: "Seperti kata pepatah, \"Di dalam tubuh yang sehat terdapat jiwa yang kuat.\"",
     },
     properti: {
-      title: "Properti",
+      title: "Property",
       subTitle: "Semua hal-hal penting yang saya dapatkan ketika merintis tanahkulaku ada di sini.",
     },
     lab: {

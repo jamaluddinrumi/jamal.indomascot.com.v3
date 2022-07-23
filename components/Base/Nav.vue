@@ -49,7 +49,7 @@
               class="align-text-bottom inline-block opacity-75 h-4 w-4 mb-[3.5px]"
             ></IconHouse>
           </span>
-          <span class="font-medium"> Properti </span>
+          <span class="font-medium"> Property </span>
         </i-nav-item>
         <i-nav-item class="pl-0 mr-8" to="/kategori/lab">
           <span class="fa-li">
