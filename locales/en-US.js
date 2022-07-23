@@ -190,13 +190,13 @@ export default {
       subTitle:
         "UI/UX adalah disiplin ilmu yang membahas cara agar sesuatu dapat dimanfaatkan dengan mudah.",
     },
-    fitness: {
-      title: "Fitness",
-      subTitle: "Etiam porta sem malesuada magna mollis euismod.",
+    health: {
+      title: "Health",
+      subTitle: "Seperti kata pepatah, \"Di dalam tubuh yang sehat terdapat jiwa yang kuat.\"",
     },
-    properti: {
-      title: "Properti",
-      subTitle: "Nullam quis risus eget urna mollis ornare vel eu leo.",
+    property: {
+      title: "Property",
+      subTitle: "Semua hal-hal penting yang saya dapatkan ketika merintis tanahkulaku ada di sini.",
     },
     lab: {
       title: "Lab",

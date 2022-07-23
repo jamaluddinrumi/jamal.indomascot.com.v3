@@ -35,7 +35,7 @@
           </span>
           <span class="font-medium"> UI/UX </span>
         </i-nav-item>
-        <i-nav-item class="pl-0 mr-8" to="/kategori/fitness">
+        <i-nav-item class="pl-0 mr-8" to="/kategori/health">
           <span class="fa-li">
             <IconFitness
               class="align-text-bottom inline-block opacity-75 h-4 w-4 mb-[1.5px]"
@@ -43,7 +43,7 @@
           </span>
           <span class="font-medium"> Health </span>
         </i-nav-item>
-        <i-nav-item class="pl-0 mr-8" to="/kategori/properti">
+        <i-nav-item class="pl-0 mr-8" to="/kategori/property">
           <span class="fa-li">
             <IconHouse
               class="align-text-bottom inline-block opacity-75 h-4 w-4 mb-[3.5px]"

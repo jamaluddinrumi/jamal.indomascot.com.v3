@@ -188,11 +188,11 @@ export default {
       subTitle:
         "UI/UX adalah bagian dari ilmu desain yang membahas cara sesuatu itu dapat dimanfaatkan dengan mudah.",
     },
-    fitness: {
+    health: {
       title: "Health",
       subTitle: "Seperti kata pepatah, \"Di dalam tubuh yang sehat terdapat jiwa yang kuat.\"",
     },
-    properti: {
+    property: {
       title: "Property",
       subTitle: "Semua hal-hal penting yang saya dapatkan ketika merintis tanahkulaku ada di sini.",
     },
