@@ -41,7 +41,7 @@
               class="align-text-bottom inline-block opacity-75 h-4 w-4 mb-[1.5px]"
             ></IconFitness>
           </span>
-          <span class="font-medium"> Fitness </span>
+          <span class="font-medium"> Health </span>
         </i-nav-item>
         <i-nav-item class="pl-0 mr-8" to="/kategori/properti">
           <span class="fa-li">

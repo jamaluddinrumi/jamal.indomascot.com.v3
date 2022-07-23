@@ -186,20 +186,20 @@ export default {
     uiUx: {
       title: "UI/UX",
       subTitle:
-        "UI/UX adalah disiplin ilmu yang membahas cara agar sesuatu dapat dimanfaatkan dengan mudah.",
+        "UI/UX adalah bagian dari ilmu desain yang membahas cara sesuatu itu dapat dimanfaatkan dengan mudah.",
     },
     fitness: {
-      title: "Fitness",
-      subTitle: "Etiam porta sem malesuada magna mollis euismod.",
+      title: "Health",
+      subTitle: "Seperti kata pepatah, \"Di dalam tubuh yang sehat terdapat jiwa yang kuat.\"",
     },
     properti: {
       title: "Properti",
-      subTitle: "Nullam quis risus eget urna mollis ornare vel eu leo.",
+      subTitle: "Semua hal-hal penting yang saya dapatkan ketika merintis tanahkulaku ada di sini.",
     },
     lab: {
       title: "Lab",
       subTitle:
-        "Semua percobaan terutama terkait digital marketing yang saya lakukan ada di sini.",
+        "Semua percobaan terutama yang terkait digital marketing yang saya lakukan ada di sini.",
     },
   },
 };
