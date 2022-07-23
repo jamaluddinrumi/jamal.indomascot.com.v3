@@ -80,8 +80,8 @@ import IconNuxt from "~icons/logos/nuxt-icon";
 import IconGoogleMarketingPlatform from "~icons/logos/google-marketing-platform";
 import IconStyled from "~icons/vscode-icons/file-type-styled";
 import IconFitness from "~icons/logos/google-fit";
-import IconTube from "~icons/noto/test-tube";
 import IconHouse from "~icons/noto-v1/house";
+import IconTube from "~icons/noto/test-tube";
 
 const open = ref(true);
 </script>
