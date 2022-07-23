@@ -26,7 +26,7 @@
       ></IconHouse>
       <IconTube
         v-if="slug === 'lab'"
-        class="icon align-text-bottom inline-flex opacity-75 w-8 h-8 mt-[calc(1rem_*_2.9)]"
+        class="icon align-text-bottom inline-flex opacity-75 w-9 h-9 mt-[calc(1rem_*_2.7)]"
       ></IconTube>
       <h1 class="ml-2 text-center inline-flex">{{ $t(slugTitle) }}</h1>
     </div>
