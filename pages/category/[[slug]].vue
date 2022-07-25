@@ -30,7 +30,7 @@
       ></IconTube>
       <h1 class="ml-2 text-center inline-flex">{{ $t(slugTitle) }}</h1>
     </div>
-    <h2 class="text-center text-sm">
+    <h2 class="container text-center text-sm">
       {{ $t(slugSubtitle) }}
     </h2>
   </div>

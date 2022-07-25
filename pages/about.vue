@@ -4,7 +4,7 @@
       <Title>{{ $t(title) }} - Jamaluddin Rumi</Title>
     </Head>
     <h1 class="text-center">{{ $t(title) }}</h1>
-    <h2 class="text-center text-sm">{{ $t(subtitle) }}</h2>
+    <h2 class="container text-center text-sm">{{ $t(subtitle) }}</h2>
   </div>
 </template>
 
