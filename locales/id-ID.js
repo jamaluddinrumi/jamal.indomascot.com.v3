@@ -209,7 +209,7 @@ export default {
     privacy: {
       title: "Privasi",
       subtitle:
-        "Saya berkomitmen untuk menjaga privasi pengunjung website ini dengan cara tidak meng-capture maupun menyebarkan PII (Personal Identity Information) pengunjung website ini.",
+        "Saya berkomitmen untuk menjaga privasi pengunjung website ini dengan cara tidak meng-capture apalagi menyebarkan PII (Personal Identity Information) pengunjung website ini.",
     },
     about: {
       title: "Tentang",
