@@ -9,7 +9,7 @@
     </i-navbar-brand>
     <i-navbar-collapsible class="_justify-content:center">
       <i-nav class="fa-ul mb-4 md:mb-0">
-        <i-nav-item class="pl-0 mr-8" to="/kategori/nuxtjs">
+        <i-nav-item class="pl-0 mr-8" to="/category/nuxtjs">
           <span class="fa-li">
             <IconNuxt
               class="align-text-bottom inline-block opacity-75"
@@ -17,7 +17,7 @@
           </span>
           <span class="font-medium"> NuxtJS </span>
         </i-nav-item>
-        <i-nav-item class="pl-0 mr-8" to="/kategori/marketing">
+        <i-nav-item class="pl-0 mr-8" to="/category/marketing">
           <span class="fa-li">
             <IconGoogleMarketingPlatform
               class="align-text-bottom inline-block opacity-75 h-4 w-4 mb-[2px]"
@@ -27,7 +27,7 @@
 
           <span class="font-medium"> Marketing </span>
         </i-nav-item>
-        <i-nav-item class="pl-0 mr-8" to="/kategori/ui-ux">
+        <i-nav-item class="pl-0 mr-8" to="/category/ui-ux">
           <span class="fa-li">
             <IconStyled
               class="align-text-bottom inline-block opacity-75 mb-[3px]"
@@ -35,7 +35,7 @@
           </span>
           <span class="font-medium"> UI/UX </span>
         </i-nav-item>
-        <i-nav-item class="pl-0 mr-8" to="/kategori/health">
+        <i-nav-item class="pl-0 mr-8" to="/category/health">
           <span class="fa-li">
             <IconFitness
               class="align-text-bottom inline-block opacity-75 h-4 w-4 mb-[1.5px]"
@@ -43,7 +43,7 @@
           </span>
           <span class="font-medium"> Health </span>
         </i-nav-item>
-        <i-nav-item class="pl-0 mr-8" to="/kategori/property">
+        <i-nav-item class="pl-0 mr-8" to="/category/property">
           <span class="fa-li">
             <IconHouse
               class="align-text-bottom inline-block opacity-75 h-4 w-4 mb-[3.5px]"
@@ -51,7 +51,7 @@
           </span>
           <span class="font-medium"> Property </span>
         </i-nav-item>
-        <i-nav-item class="pl-0 mr-8" to="/kategori/lab">
+        <i-nav-item class="pl-0 mr-8" to="/category/lab">
           <span class="fa-li">
             <IconTube
               class="align-text-bottom inline-block opacity-75 h-4 w-4 mb-[1px]"
