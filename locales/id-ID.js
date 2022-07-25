@@ -28,7 +28,7 @@ export default {
   weProduce:
     "Sudah lebih dari ratusan UMKM, komunitas hingga institusi pemerintahan telah memercayakan kami untuk memproduksikan kostum badut maskot custom dengan desain dari mereka sendiri untuk mensukseskan kegiatan event, sosialiasi, promosi hingga brandingnya.",
   andManyMore: "dan masih banyak lagi",
-  mascotCostumeSubtitle:
+  mascotCostumesubtitle:
     "Kostum badut maskot ini berukuran all-size yang artinya proporsional dipakai oleh orang dewasa yang tinggi umumnya 170-190cm.",
   showMore: "lihat selengkapnya",
   aboutUsParagraph: {
@@ -173,33 +173,57 @@ export default {
     chrome: "Hanya di browser Chrome",
   },
   allArticles: "Semua Artikel",
-  kategori: {
+  category: {
     nuxtjs: {
       title: "NuxtJS",
-      subTitle: "NuxtJS adalah framework untuk membuat web.",
+      subtitle:
+        "NuxtJS adalah framework untuk membuat web yang mudah digunakan.",
     },
     marketing: {
       title: "Marketing",
-      subTitle:
+      subtitle:
         "Marketing berbeda dengan selling. Marketing adalah usaha untuk memasarkan (bukan menjual) barang/jasa.",
     },
     uiUx: {
       title: "UI/UX",
-      subTitle:
+      subtitle:
         "UI/UX adalah bagian dari ilmu desain yang membahas cara sesuatu itu dapat dimanfaatkan dengan mudah.",
     },
     health: {
-      title: "Health",
-      subTitle: "Seperti kata pepatah, \"Di dalam tubuh yang sehat terdapat jiwa yang kuat.\"",
+      title: "Kesehatan",
+      subtitle:
+        'Seperti kata pepatah, "Di dalam tubuh yang sehat terdapat jiwa yang kuat."',
     },
     property: {
-      title: "Property",
-      subTitle: "Semua hal-hal penting yang saya dapatkan ketika merintis tanahkulaku ada di sini.",
+      title: "Properti",
+      subtitle:
+        "Semua hal-hal penting yang saya dapatkan ketika merintis tanahkulaku ada di sini.",
     },
     lab: {
       title: "Lab",
-      subTitle:
+      subtitle:
         "Semua percobaan terutama yang terkait digital marketing yang saya lakukan ada di sini.",
+    },
+  },
+  footer: {
+    privacy: {
+      title: "Privasi",
+      subtitle:
+        "Saya berkomitmen untuk menjaga privasi pengunjung website ini dengan cara tidak meng-capture maupun menyebarkan PII (Personal Identity Information) pengunjung website ini.",
+    },
+    about: {
+      title: "Tentang",
+      subtitle: "Seorang hamba Allah yang sedang ingin memperbaiki diri.",
+    },
+    contact: {
+      title: "Kontak",
+      subtitle:
+        "Apabila ada yang ingin didiskusikan secara pribadi, dapat menghubungi saya lewat kontak ini.",
+    },
+    credits: {
+      title: "Credits",
+      subtitle:
+        "Saya sangat menghargai karya orang lain. Jadi, saya mengapresiasi karya-karya orang lain yang saya gunakan di sini.",
     },
   },
 };

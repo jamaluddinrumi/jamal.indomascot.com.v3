@@ -175,33 +175,50 @@ export default {
     chrome: "only on Chrome browser",
   },
   allArticles: "All Articles",
-  kategori: {
+  category: {
     nuxtjs: {
       title: "NuxtJS",
-      subTitle: "NuxtJS adalah framework untuk membuat web.",
+      subTitle: "NuxtJS is an easy to use framework for building website.",
     },
     marketing: {
       title: "Marketing",
       subTitle:
-        "Marketing berbeda dengan selling. Marketing adalah usaha untuk memasarkan (bukan menjual) barang/jasa.",
+        "Marketing is different from selling. Marketing is an effort to market (not selling) product/service.",
     },
     uiUx: {
       title: "UI/UX",
-      subTitle:
-        "UI/UX adalah disiplin ilmu yang membahas cara agar sesuatu dapat dimanfaatkan dengan mudah.",
+      subTitle: "UI/UX adalah is an art to make things can be leveraged easy.",
     },
     health: {
       title: "Health",
-      subTitle: "Seperti kata pepatah, \"Di dalam tubuh yang sehat terdapat jiwa yang kuat.\"",
+      subTitle:
+        'Like a proverb saying, "In a healthy body there is a strong soul."',
     },
     property: {
       title: "Property",
-      subTitle: "Semua hal-hal penting yang saya dapatkan ketika merintis tanahkulaku ada di sini.",
+      subTitle: "All i got when developing tanahkulaku is here.",
     },
     lab: {
       title: "Lab",
-      subTitle:
-        "Semua percobaan terutama terkait digital marketing yang saya lakukan ada di sini.",
+      subTitle: "All experiments i did about digital marketing is here.",
+    },
+  },
+  footer: {
+    privacy: {
+      title: "Privacy",
+      subTitle: "Duis mollis, est non commodo luctus.",
+    },
+    about: {
+      title: "About",
+      subTitle: "Duis mollis, est non commodo luctus.",
+    },
+    contact: {
+      title: "Contact",
+      subTitle: "Duis mollis, est non commodo luctus.",
+    },
+    credits: {
+      title: "Credits",
+      subTitle: "Duis mollis, est non commodo luctus.",
     },
   },
 };

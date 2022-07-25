@@ -15,7 +15,7 @@
               class="align-text-bottom inline-block opacity-75"
             ></IconNuxt>
           </span>
-          <span class="font-medium"> NuxtJS </span>
+          <span class="font-medium"> {{ $t("category.nuxtjs.title") }} </span>
         </i-nav-item>
         <i-nav-item class="pl-0 mr-8" to="/category/marketing">
           <span class="fa-li">
@@ -25,7 +25,7 @@
             </IconGoogleMarketingPlatform>
           </span>
 
-          <span class="font-medium"> Marketing </span>
+          <span class="font-medium"> {{ $t("category.marketing.title") }} </span>
         </i-nav-item>
         <i-nav-item class="pl-0 mr-8" to="/category/ui-ux">
           <span class="fa-li">
@@ -33,7 +33,7 @@
               class="align-text-bottom inline-block opacity-75 mb-[3px]"
             ></IconStyled>
           </span>
-          <span class="font-medium"> UI/UX </span>
+          <span class="font-medium"> {{ $t("category.uiUx.title") }} </span>
         </i-nav-item>
         <i-nav-item class="pl-0 mr-8" to="/category/health">
           <span class="fa-li">
@@ -41,7 +41,7 @@
               class="align-text-bottom inline-block opacity-75 h-4 w-4 mb-[1.5px]"
             ></IconFitness>
           </span>
-          <span class="font-medium"> Health </span>
+          <span class="font-medium"> {{ $t("category.health.title") }} </span>
         </i-nav-item>
         <i-nav-item class="pl-0 mr-8" to="/category/property">
           <span class="fa-li">
@@ -49,7 +49,7 @@
               class="align-text-bottom inline-block opacity-75 h-4 w-4 mb-[3.5px]"
             ></IconHouse>
           </span>
-          <span class="font-medium"> Property </span>
+          <span class="font-medium"> {{ $t("category.property.title") }} </span>
         </i-nav-item>
         <i-nav-item class="pl-0 mr-8" to="/category/lab">
           <span class="fa-li">
@@ -57,8 +57,7 @@
               class="align-text-bottom inline-block opacity-75 h-4 w-4 mb-[1px]"
             ></IconTube>
           </span>
-
-          <span class="font-medium"> Lab </span>
+          <span class="font-medium"> {{ $t("category.lab.title") }} </span>
         </i-nav-item>
       </i-nav>
       <i-input placeholder="cari..">

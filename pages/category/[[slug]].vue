@@ -49,8 +49,8 @@ import IconTube from "~icons/noto/test-tube";
 
 const route = useRoute();
 const slug = useChangeCase(route.params.slug, "camelCase");
-const slugTitle = "kategori." + slug.value + ".title";
-const slugSubtitle = "kategori." + slug.value + ".subTitle";
+const slugTitle = "category." + slug.value + ".title";
+const slugSubtitle = "category." + slug.value + ".subtitle";
 
 definePageMeta({
   name: "kategori",
