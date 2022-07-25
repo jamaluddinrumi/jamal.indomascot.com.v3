@@ -11,6 +11,3 @@
         </div>
     </i-layout-footer>
 </template>
-
-<style scoped>
-</style>
