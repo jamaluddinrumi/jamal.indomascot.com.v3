@@ -17,11 +17,11 @@
         class="icon align-text-bottom inline-flex opacity-75 w-9 h-9 mt-[calc(1rem_*_2.5)]"
       ></IconStyled>
       <IconFitness
-        v-if="slug === 'fitness'"
+        v-if="slug === 'health'"
         class="icon align-text-bottom inline-flex opacity-75 w-9 h-9 mt-[calc(1rem_*_2.8)]"
       ></IconFitness>
       <IconHouse
-        v-if="slug === 'properti'"
+        v-if="slug === 'property'"
         class="icon align-text-bottom inline-flex opacity-75 w-9 h-9 mt-[calc(1rem_*_2.5)]"
       ></IconHouse>
       <IconTube
