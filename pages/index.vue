@@ -9,13 +9,16 @@
         class="icon align-text-bottom inline-flex w-11 h-11 mt-[calc(1rem_*_2.5)] ml-2"
       ></IconSoon>
     </div>
-    <p class="container text-center text-sm">
-      My name is Jamaluddin Rumi and Welcome to my personal website. I'm a Web
-      Developer from Indonesia and work as Owner at
-      <NuxtLink href="https://www.indomascot.com">INDOMASCOT</NuxtLink>. I'm
-      also bootstrapping a startup called TanahkuLaku, a marketplace especially for
-      trading land in Indonesia.
-    </p>
+    <h2 class="container text-center text-sm">
+      Hi, my name is Jamaluddin Rumi. I'd rather called me a Surviving Entrepreneur.
+      I'm currently an Owner at
+      <NuxtLink
+        class="text-white underline font-bold"
+        href="https://www.indomascot.com"
+        >INDOMASCOT</NuxtLink
+      > and also bootstrapping a startup called TanahkuLaku, a marketplace
+      especially for trading land in Indonesia.
+    </h2>
   </div>
 </template>
 

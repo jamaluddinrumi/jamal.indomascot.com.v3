@@ -11,7 +11,7 @@
 
 <style lang="scss">
 @import "@/assets/css/app.css";
-@import "@/assets/css/inter.css";
+@import "@/assets/css/inter-v.css";
 @import "@inkline/inkline/css/variables";
 @import "@inkline/inkline/css/mixins";
 
@@ -19,6 +19,7 @@
   --color--primary--h: 202deg;
   --color--primary--s: 89%;
   --color--primary--l: 43%;
+  --font-family-primary--base: "Inter var";
 }
 
 .fa-ul {
