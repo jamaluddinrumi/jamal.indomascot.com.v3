@@ -10,10 +10,10 @@
 </template>
 
 <style lang="scss">
-@import "@/assets/css/app.css";
-@import "@/assets/css/inter-v.css";
 @import "@inkline/inkline/css/variables";
 @import "@inkline/inkline/css/mixins";
+@import "@/assets/css/inter-v.css";
+@import "@/assets/css/app.css";
 
 :root {
   --color--primary--h: 202deg;
