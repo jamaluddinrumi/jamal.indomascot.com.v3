@@ -9,16 +9,16 @@
     </i-navbar-brand>
     <i-navbar-collapsible class="_justify-content:center">
       <i-nav class="fa-ul mb-4 md:mb-0">
-        <i-nav-item class="pl-0 mr-8" to="/category/nuxtjs">
-          <span class="fa-li">
+        <i-nav-item class="pl-0 mr-0 md:mr-2" to="/category/nuxtjs">
+          <span class="fa-li ml-4">
             <IconNuxt
               class="align-text-bottom inline-block opacity-75"
             ></IconNuxt>
           </span>
           <span class="font-medium"> {{ $t("category.nuxtjs.title") }} </span>
         </i-nav-item>
-        <i-nav-item class="pl-0 mr-8" to="/category/marketing">
-          <span class="fa-li">
+        <i-nav-item class="pl-0 mr-0 md:mr-2" to="/category/marketing">
+          <span class="fa-li ml-4">
             <IconGoogleMarketingPlatform
               class="align-text-bottom inline-block opacity-75 h-4 w-4 mb-[2px]"
             >
@@ -27,32 +27,32 @@
 
           <span class="font-medium"> {{ $t("category.marketing.title") }} </span>
         </i-nav-item>
-        <i-nav-item class="pl-0 mr-8" to="/category/ui-ux">
-          <span class="fa-li">
+        <i-nav-item class="pl-0 mr-0 md:mr-2" to="/category/ui-ux">
+          <span class="fa-li ml-4">
             <IconStyled
               class="align-text-bottom inline-block opacity-75 mb-[3px]"
             ></IconStyled>
           </span>
           <span class="font-medium"> {{ $t("category.uiUx.title") }} </span>
         </i-nav-item>
-        <i-nav-item class="pl-0 mr-8" to="/category/health">
-          <span class="fa-li">
+        <i-nav-item class="pl-0 mr-0 md:mr-2" to="/category/health">
+          <span class="fa-li ml-4">
             <IconFitness
               class="align-text-bottom inline-block opacity-75 h-4 w-4 mb-[1.5px]"
             ></IconFitness>
           </span>
           <span class="font-medium"> {{ $t("category.health.title") }} </span>
         </i-nav-item>
-        <i-nav-item class="pl-0 mr-8" to="/category/property">
-          <span class="fa-li">
+        <i-nav-item class="pl-0 mr-0 md:mr-2" to="/category/property">
+          <span class="fa-li ml-4">
             <IconHouse
               class="align-text-bottom inline-block opacity-75 h-4 w-4 mb-[3.5px]"
             ></IconHouse>
           </span>
           <span class="font-medium"> {{ $t("category.property.title") }} </span>
         </i-nav-item>
-        <i-nav-item class="pl-0 mr-8" to="/category/lab">
-          <span class="fa-li">
+        <i-nav-item class="pl-0 mr-0 md:mr-2" to="/category/lab">
+          <span class="fa-li ml-4">
             <IconTube
               class="align-text-bottom inline-block opacity-75 h-4 w-4 mb-[1px]"
             ></IconTube>
