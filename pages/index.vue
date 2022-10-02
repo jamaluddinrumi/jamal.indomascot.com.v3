@@ -10,14 +10,15 @@
       ></IconSoon>
     </div>
     <h2 class="container text-center text-sm">
-      Hi, my name is Jamaluddin Rumi. I'd rather called me a Surviving Entrepreneur.
-      I'm currently an Owner at
+      Halooo, perkenalkan nama saya Jamaluddin Rumi. Biasa dipanggil <span class="italic">ega</span>, eh.
+      Sekarang, saya menjalankan usaha saya sendiri di bidang pembuatan kostum
+      badut boneka maskot di
       <NuxtLink
         class="text-white underline font-bold"
         href="https://www.indomascot.com"
         >INDOMASCOT</NuxtLink
-      > and also bootstrapping a startup called TanahkuLaku, a marketplace
-      especially for trading land in Indonesia.
+      >. Dan saat ini sedang mencari peluang usaha baru dengan memanfaatkan
+      media online khususnya melalui media website.
     </h2>
   </div>
 </template>
