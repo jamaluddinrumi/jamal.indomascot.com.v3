@@ -1,5 +1,5 @@
 export default {
-  company: "INDOMASCOT",
+  company: "Jamaluddin Rumi",
   title: "Hanya Seorang Hamba Allah",
   home: "Beranda",
   search: "Pencarian",

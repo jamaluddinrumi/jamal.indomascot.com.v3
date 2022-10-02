@@ -1,5 +1,5 @@
 export default {
-  company: "INDOMASCOT",
+  company: "Jamaluddin Rumi",
   title: "Just Another Allah's Servant",
   home: "Home",
   search: "Search",

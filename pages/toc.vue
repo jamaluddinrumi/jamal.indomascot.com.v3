@@ -3,10 +3,14 @@
     <Head>
       <Title>{{ slug }} - Jamaluddin Rumi</Title>
     </Head>
-    <h1 class="text-center">{{ slug }}</h1>
-    <h2 class="text-center text-sm">
-      Duis mollis, est non commodo luctus.
-    </h2>
+    <article
+      class="my-16 prose prose-slate mx-auto lg:prose-lg dark:prose-invert"
+    >
+      <h1 class="text-center">{{ $t(title) }}</h1>
+      <p>
+        {{ $t(subtitle) }}
+      </p>
+    </article>
   </div>
 </template>
 

@@ -3,8 +3,14 @@
     <Head>
       <Title>{{ $t(title) }} - Jamaluddin Rumi</Title>
     </Head>
-    <h1 class="text-center">{{ $t(title) }}</h1>
-    <h2 class="container text-center text-sm">{{ $t(subtitle) }}</h2>
+    <article
+      class="my-16 prose prose-slate mx-auto lg:prose-lg dark:prose-invert"
+    >
+      <h1 class="text-center">{{ $t(title) }}</h1>
+      <p>
+        {{ $t(subtitle) }}
+      </p>
+    </article>
   </div>
 </template>
 
