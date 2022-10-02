@@ -1,7 +1,6 @@
 <template>
-  <i-layout-footer class="">
-    <div class="flex justify-between">
-      <i-nav>
+  <i-layout-footer>
+      <i-nav class="w-full flex justify-between md:justify-center">
         <i-nav-item to="/privacy"
           ><span class="text-xs opacity-75 font-medium">{{
             $t("footer.privacy.title")
@@ -23,7 +22,5 @@
           }}</span></i-nav-item
         >
       </i-nav>
-      <i-nav></i-nav>
-    </div>
   </i-layout-footer>
 </template>
